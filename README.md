@@ -4,17 +4,17 @@
 
 1. python 2.7
 
-   ![image-20211224162224710](py.assets/image-20211224162224710.png)
+   ![image-20211224162224710](README.assets/image-20211224162224710.png)
 
 2. python 3.8
 
-   ![image-20211224162450163](py.assets/image-20211224162450163.png)
+   ![image-20211224162450163](README.assets/image-20211224162450163.png)
 
 
 
 ## 1.2.使用命令行
 
-![image-20211224163533106](py.assets/image-20211224163533106.png)
+![image-20211224163533106](README.assets/image-20211224163533106.png)
 
 # 2.基本语法
 
@@ -37,7 +37,7 @@
    >print d, type(d)
    >```
    >
-   >结果：![image-20211224171830549](py.assets/image-20211224171830549.png)
+   >结果：![image-20211224171830549](README.assets/image-20211224171830549.png)
 
 2. long（长整型）
 
@@ -58,7 +58,7 @@
    >print d, type(d)
    >```
    >
-   >结果：![image-20211224172120970](py.assets/image-20211224172120970.png)
+   >结果：![image-20211224172120970](README.assets/image-20211224172120970.png)
 
 3. float（浮点型）
 
@@ -69,7 +69,7 @@
    >print b, type(b)
    >```
    >
-   >结果：![image-20211224172455836](py.assets/image-20211224172455836.png)
+   >结果：![image-20211224172455836](README.assets/image-20211224172455836.png)
 
 4. complex（复数）
 
@@ -82,7 +82,7 @@
    >print b, type(b), type(b.real), type(b.imag)
    >```
    >
-   >结果：![image-20211224173504260](py.assets/image-20211224173504260.png)
+   >结果：![image-20211224173504260](README.assets/image-20211224173504260.png)
 
 ## 2.2.string
 
@@ -95,11 +95,11 @@ print s[-1]
 print s[len(s) - 1]
 ```
 
-结果：![image-20211225132829034](py.assets/image-20211225132829034.png)
+结果：![image-20211225132829034](README.assets/image-20211225132829034.png)
 
 ### 2.2.1.切片
 
-![image-20211231105933830](py.assets/image-20211231105933830.png)
+![image-20211231105933830](README.assets/image-20211231105933830.png)
 
 ```python
 s = "span"
@@ -118,7 +118,7 @@ print s[0:len(s) - 1] == s[:-1]
 s2=s[:]
 ```
 
-结果：![image-20211225134927655](py.assets/image-20211225134927655.png)
+结果：![image-20211225134927655](README.assets/image-20211225134927655.png)
 
 ------
 
@@ -132,7 +132,7 @@ print s[::-1]
 print s[8:2:-2]
 ```
 
-结果：![image-20211231110858530](py.assets/image-20211231110858530.png)
+结果：![image-20211231110858530](README.assets/image-20211231110858530.png)
 
 ### 2.2.2.不可变性
 
@@ -143,7 +143,7 @@ s[0] = "a"
 
 结果：
 
-![image-20211225135209856](py.assets/image-20211225135209856.png)
+![image-20211225135209856](README.assets/image-20211225135209856.png)
 
 ### 2.2.3.字符串中的变量
 
@@ -154,7 +154,7 @@ n3 = 9527
 print "%s!!! How %s you !!!  %d" % (s2, s, n3)
 ```
 
-结果：![image-20211225135855324](py.assets/image-20211225135855324.png)
+结果：![image-20211225135855324](README.assets/image-20211225135855324.png)
 
 ### 2.2.4.help
 
@@ -164,11 +164,11 @@ s = "span"
 print dir(s)
 ```
 
-结果：![image-20211225141846052](py.assets/image-20211225141846052.png)
+结果：![image-20211225141846052](README.assets/image-20211225141846052.png)
 
 其实就是：
 
-![image-20211225142017975](py.assets/image-20211225142017975.png)
+![image-20211225142017975](README.assets/image-20211225142017975.png)
 
 ```python
 s = "span"
@@ -178,13 +178,13 @@ print help(s.replace)
 
 结果：
 
-![image-20211225142142594](py.assets/image-20211225142142594.png)
+![image-20211225142142594](README.assets/image-20211225142142594.png)
 
 ### 2.2.5.转义
 
 >字符串在交互模式下  \n 等字符以转义字符显示，在print打印下会将其解释出来
 
-![image-20211228111715114](py.assets/image-20211228111715114.png)
+![image-20211228111715114](README.assets/image-20211228111715114.png)
 
 ### 2.2.6.Ascii和字符转换
 
@@ -193,7 +193,7 @@ print ord("s")
 print chr(115)
 ```
 
-结果：![image-20211231111903797](py.assets/image-20211231111903797.png)
+结果：![image-20211231111903797](README.assets/image-20211231111903797.png)
 
 ### 2.2.7.修改字符串
 
@@ -218,7 +218,7 @@ s = "".join(L)
 print s
 ```
 
-结果：![image-20211231114458687](py.assets/image-20211231114458687.png)
+结果：![image-20211231114458687](README.assets/image-20211231114458687.png)
 
 ## 2.3.list
 
@@ -236,7 +236,7 @@ print L + ["465", 123]  # 返回一个新列表
 print L
 ```
 
-结果：![image-20211225145237058](py.assets/image-20211225145237058.png)
+结果：![image-20211225145237058](README.assets/image-20211225145237058.png)
 
 ### 2.3.1.列表嵌套
 
@@ -249,13 +249,13 @@ print L[0]
 print L[1][2]
 ```
 
-结果：![image-20211225145639681](py.assets/image-20211225145639681.png)
+结果：![image-20211225145639681](README.assets/image-20211225145639681.png)
 
 ### 2.3.2.列表常见操作
 
-![image-20211231145917801](py.assets/image-20211231145917801.png)
+![image-20211231145917801](README.assets/image-20211231145917801.png)
 
-![image-20211231145840263](py.assets/image-20211231145840263.png)
+![image-20211231145840263](README.assets/image-20211231145840263.png)
 
 ## 2.4.dic
 
@@ -275,17 +275,17 @@ for v in d.values():
     print v,
 ```
 
-结果：![image-20211225165425622](py.assets/image-20211225165425622.png)
+结果：![image-20211225165425622](README.assets/image-20211225165425622.png)
 
 ### 2.4.1.字典的创建方式
 
-![image-20211231144210503](py.assets/image-20211231144210503.png)
+![image-20211231144210503](README.assets/image-20211231144210503.png)
 
 ### 2.4.2.字典的常见操作
 
-![image-20211231150058646](py.assets/image-20211231150058646.png)
+![image-20211231150058646](README.assets/image-20211231150058646.png)
 
-![image-20211231150122956](py.assets/image-20211231150122956.png)
+![image-20211231150122956](README.assets/image-20211231150122956.png)
 
 ## 2.5.tuple
 
@@ -298,13 +298,13 @@ for v in t:
 t[0] = 100
 ```
 
-结果：![image-20211225172035400](py.assets/image-20211225172035400.png)
+结果：![image-20211225172035400](README.assets/image-20211225172035400.png)
 
 ### 2.5.1.元组常见操作
 
-![image-20211231150235842](py.assets/image-20211231150235842.png)
+![image-20211231150235842](README.assets/image-20211231150235842.png)
 
-![image-20211231150253552](py.assets/image-20211231150253552.png)
+![image-20211231150253552](README.assets/image-20211231150253552.png)
 
 ## 2.6.set
 
@@ -321,7 +321,7 @@ print x ^ y  # 去掉相同的
 print x > y
 ```
 
-结果：![image-20211226160710075](py.assets/image-20211226160710075.png)
+结果：![image-20211226160710075](README.assets/image-20211226160710075.png)
 
 ## 2.7.Generator
 
@@ -357,7 +357,7 @@ while True:
         sys.exit()
 ```
 
-结果：![image-20211225154644968](py.assets/image-20211225154644968.png)
+结果：![image-20211225154644968](README.assets/image-20211225154644968.png)
 
 ### 2.7.1.Generator配合for
 
@@ -375,7 +375,7 @@ for (offset2, v) in enumerate(s, start=0):
     print v, "appears at offset ", offset2
 ```
 
-结果：![image-20220101153828747](py.assets/image-20220101153828747.png)
+结果：![image-20220101153828747](README.assets/image-20220101153828747.png)
 
 ## 2.8.解析表达式
 
@@ -394,7 +394,7 @@ for (offset2, v) in enumerate(s, start=0):
    >print R
    >```
    >
-   >结果：![image-20211225151521750](py.assets/image-20211225151521750.png)
+   >结果：![image-20211225151521750](README.assets/image-20211225151521750.png)
 
 2. set解析
 
@@ -409,7 +409,7 @@ for (offset2, v) in enumerate(s, start=0):
    >print G
    >```
    >
-   >结果：![image-20211225162835931](py.assets/image-20211225162835931.png)
+   >结果：![image-20211225162835931](README.assets/image-20211225162835931.png)
 
 3. dic解析
 
@@ -424,7 +424,7 @@ for (offset2, v) in enumerate(s, start=0):
    >print M
    >```
    >
-   >结果：![image-20211225163027981](py.assets/image-20211225163027981.png)
+   >结果：![image-20211225163027981](README.assets/image-20211225163027981.png)
 
 4. generator解析
 
@@ -440,7 +440,7 @@ for (offset2, v) in enumerate(s, start=0):
    >    print v,
    >```
    >
-   >结果：![image-20211225163806705](py.assets/image-20211225163806705.png)
+   >结果：![image-20211225163806705](README.assets/image-20211225163806705.png)
 
 ## 2.9.bool
 
@@ -466,7 +466,7 @@ g = None
 print bool(g)
 ```
 
-结果：![image-20211231190445975](py.assets/image-20211231190445975.png)
+结果：![image-20211231190445975](README.assets/image-20211231190445975.png)
 
 # 3.文件
 
@@ -476,11 +476,11 @@ with open("log.txt", "r") as f:
     print f.read()
 ```
 
-结果：![image-20211225214318366](py.assets/image-20211225214318366.png)
+结果：![image-20211225214318366](README.assets/image-20211225214318366.png)
 
 ## 3.1.文件常见操作
 
-![image-20211231145526113](py.assets/image-20211231145526113.png)
+![image-20211231145526113](README.assets/image-20211231145526113.png)
 
 # 4.类
 
@@ -509,7 +509,7 @@ if __name__ == '__main__':
     print t.a
 ```
 
-结果：![image-20211225221039429](py.assets/image-20211225221039429.png)
+结果：![image-20211225221039429](README.assets/image-20211225221039429.png)
 
 # 5.操作符
 
@@ -547,7 +547,7 @@ decimal.getcontext().prec = 2
 print decimal.Decimal(1) / decimal.Decimal(7)
 ```
 
-结果：![image-20211226151215550](py.assets/image-20211226151215550.png)
+结果：![image-20211226151215550](README.assets/image-20211226151215550.png)
 
 ```python
 import decimal
@@ -560,7 +560,7 @@ with decimal.localcontext() as d:
 print decimal.Decimal(1) / decimal.Decimal(7)
 ```
 
-结果：![image-20211226151501148](py.assets/image-20211226151501148.png)
+结果：![image-20211226151501148](README.assets/image-20211226151501148.png)
 
 # 7.分数
 
@@ -577,7 +577,7 @@ z = fractions.Fraction(0.25)
 print z
 ```
 
-结果：![image-20211226151759226](py.assets/image-20211226151759226.png)
+结果：![image-20211226151759226](README.assets/image-20211226151759226.png)
 
 # 8.拷贝
 
@@ -592,7 +592,7 @@ print a
 print b
 ```
 
-结果：![image-20211227110905853](py.assets/image-20211227110905853.png)
+结果：![image-20211227110905853](README.assets/image-20211227110905853.png)
 
 ## 8.2.深拷贝和浅拷贝
 
@@ -614,7 +614,7 @@ print c
 print d
 ```
 
-结果：![image-20211227111243199](py.assets/image-20211227111243199.png)
+结果：![image-20211227111243199](README.assets/image-20211227111243199.png)
 
 # 9.转义
 
@@ -630,7 +630,7 @@ path3 = "C:\\new\\test.text"
 print path3
 ```
 
-结果：![image-20211231104525404](py.assets/image-20211231104525404.png)
+结果：![image-20211231104525404](README.assets/image-20211231104525404.png)
 
 # 10.格式化打印
 
@@ -640,9 +640,9 @@ print "%d %s %s" % (10, "abc", ["a", "b", "c"])
 print "{0} {1} {2}".format(10, "abc", ["a", "b", "c"])
 ```
 
-结果：![image-20211231142814995](py.assets/image-20211231142814995.png)
+结果：![image-20211231142814995](README.assets/image-20211231142814995.png)
 
-![image-20211231122324221](py.assets/image-20211231122324221.png)
+![image-20211231122324221](README.assets/image-20211231122324221.png)
 
 ## 10.1.重定向打印
 
@@ -653,7 +653,7 @@ logfile = open(name="log.txt", mode="a")
 print >> logfile, "%d %s is best%s" % (1, "python", "!")
 ```
 
-结果：![image-20211218163024347](py.assets/image-20211218163024347.png)
+结果：![image-20211218163024347](README.assets/image-20211218163024347.png)
 
 ## 10.2.Stdout与print等价替换
 
@@ -671,7 +671,7 @@ b = sys.stdin
 print b.readline()  # 等价于 raw_input()
 ```
 
-结果：![image-20220101140850213](py.assets/image-20220101140850213.png)
+结果：![image-20220101140850213](README.assets/image-20220101140850213.png)
 
 # 11.比较
 
@@ -684,7 +684,7 @@ print a == b
 print a is b
 ```
 
-结果：![image-20211231155720519](py.assets/image-20211231155720519.png)
+结果：![image-20211231155720519](README.assets/image-20211231155720519.png)
 
 # 12.赋值
 
@@ -708,11 +708,11 @@ z, x, y = y, z, x
 print x, y, z
 ```
 
-结果：![image-20211231214116119](py.assets/image-20211231214116119.png)
+结果：![image-20211231214116119](README.assets/image-20211231214116119.png)
 
 # 13.命名
 
-![image-20211231214304208](py.assets/image-20211231214304208.png)
+![image-20211231214304208](README.assets/image-20211231214304208.png)
 
 # 14.迭代器
 
@@ -737,7 +737,7 @@ while True:
         sys.exit()
 ```
 
-结果：![image-20220101161053168](py.assets/image-20220101161053168.png)
+结果：![image-20220101161053168](README.assets/image-20220101161053168.png)
 
 # 15.函数
 
@@ -760,7 +760,7 @@ while True:
    >f1(a, b, c)
    >```
    >
-   >结果：![image-20220102140651506](py.assets/image-20220102140651506.png)
+   >结果：![image-20220102140651506](README.assets/image-20220102140651506.png)
 
 2. 字典参数
 
@@ -774,7 +774,7 @@ while True:
    >f2(a="2", b=200)
    >```
    >
-   >结果：![image-20220102141023580](py.assets/image-20220102141023580.png)
+   >结果：![image-20220102141023580](README.assets/image-20220102141023580.png)
 
 3. 参数顺序
 
@@ -790,7 +790,7 @@ while True:
    >f3("tony", 20, "a", "b", c=200, d=800)
    >```
    >
-   >结果：![image-20220102141451135](py.assets/image-20220102141451135.png)
+   >结果：![image-20220102141451135](README.assets/image-20220102141451135.png)
 
 ## 15.2.调用(解包参数）
 
@@ -809,7 +809,7 @@ b = {"b": 100, "a": "aaa", "c": "ccc"}
 f3(**b)
 ```
 
-结果：![image-20220102143722109](py.assets/image-20220102143722109.png)
+结果：![image-20220102143722109](README.assets/image-20220102143722109.png)
 
 ## 15.3.嵌套作用域
 
@@ -833,7 +833,7 @@ f3(**b)
   >f()
   >```
   >
-  >结果：![image-20220101195149040](py.assets/image-20220101195149040.png)
+  >结果：![image-20220101195149040](README.assets/image-20220101195149040.png)
 
 - 用例2
 
@@ -854,7 +854,7 @@ f3(**b)
   >f(6)
   >```
   >
-  >结果：![image-20220101201422335](py.assets/image-20220101201422335.png)
+  >结果：![image-20220101201422335](README.assets/image-20220101201422335.png)
 
 **这种行为就叫闭合函数，或者工厂函数，用于需要及时生成事件处理，实时对不同情况进行反馈的程序中（例如，用户的输入是无法进行预测的）**
 
@@ -876,7 +876,7 @@ print L[1](2)
 print L[2](3)
 ```
 
-结果：![image-20220101212103059](py.assets/image-20220101212103059.png)
+结果：![image-20220101212103059](README.assets/image-20220101212103059.png)
 
 **此情况我们可以用默认参数解决**：
 
@@ -896,7 +896,7 @@ print L[1](2)
 print L[2](3)
 ```
 
-结果：![image-20220101212340195](py.assets/image-20220101212340195.png)
+结果：![image-20220101212340195](README.assets/image-20220101212340195.png)
 
 ## 15.5.global
 
@@ -913,7 +913,7 @@ f1()
 print x
 ```
 
-结果：![image-20220101221302469](py.assets/image-20220101221302469.png)
+结果：![image-20220101221302469](README.assets/image-20220101221302469.png)
 
 ```python
 x = 99
@@ -929,13 +929,13 @@ f1()
 print x
 ```
 
-结果：![image-20220101221338301](py.assets/image-20220101221338301.png)
+结果：![image-20220101221338301](README.assets/image-20220101221338301.png)
 
 ## 15.6.作用域
 
-![image-20220102125945460](py.assets/image-20220102125945460.png)
+![image-20220102125945460](README.assets/image-20220102125945460.png)
 
-![image-20220102130047724](py.assets/image-20220102130047724.png)
+![image-20220102130047724](README.assets/image-20220102130047724.png)
 
 ```python
 # x是我们的全局作用域
@@ -957,7 +957,7 @@ a = f1()
 print a(2)
 ```
 
-结果：![image-20220102131311893](py.assets/image-20220102131311893.png)
+结果：![image-20220102131311893](README.assets/image-20220102131311893.png)
 
 ## 15.7.局部静态变量
 
@@ -976,7 +976,7 @@ f1(-1)
 f1(-1)
 ```
 
-结果：![image-20220102162759111](py.assets/image-20220102162759111.png)
+结果：![image-20220102162759111](README.assets/image-20220102162759111.png)
 
 # 16.zip and map
 
@@ -991,7 +991,7 @@ f1(-1)
   >print zip(*[(1, 'A', 'a'), (2, 'B', 'b')])
   >```
   >
-  >结果：![image-20220102224522907](py.assets/image-20220102224522907.png)
+  >结果：![image-20220102224522907](README.assets/image-20220102224522907.png)
 
 - 自己实现map
 
@@ -1007,7 +1007,7 @@ f1(-1)
   >print my_map(pow, [1, 2, 3], [1, 2, 3, 4])
   >```
   >
-  >结果：![image-20220102224609774](py.assets/image-20220102224609774.png)
+  >结果：![image-20220102224609774](README.assets/image-20220102224609774.png)
 
 - 最后自己实现zip
 
@@ -1028,7 +1028,7 @@ f1(-1)
   >print my_zip(L, B, H)
   >```
   >
-  >结果：![image-20220102224724059](py.assets/image-20220102224724059.png)
+  >结果：![image-20220102224724059](README.assets/image-20220102224724059.png)
 
 # 17.time
 
@@ -1089,7 +1089,7 @@ for func in (for_loop, list_cmp, map_call, gen_expr, gen_func):
     print "%-9s: %.5f => [%s...%s]" % (func.__name__, cost, res[0], res[len(res) - 1])
 ```
 
-结果：![image-20220103141733167](py.assets/image-20220103141733167.png)
+结果：![image-20220103141733167](README.assets/image-20220103141733167.png)
 
 # 18.本地变量静态检测
 
@@ -1108,7 +1108,7 @@ def f1():
 f1()
 ```
 
-结果：![image-20220103145430860](py.assets/image-20220103145430860.png)
+结果：![image-20220103145430860](README.assets/image-20220103145430860.png)
 
 **解决办法**：
 
@@ -1128,7 +1128,7 @@ f1()
 >    f1()
 >```
 >
->结果：![image-20220103150209983](py.assets/image-20220103150209983.png)
+>结果：![image-20220103150209983](README.assets/image-20220103150209983.png)
 
 # 19.默认和可变对象
 
@@ -1146,4 +1146,4 @@ f1()
 print f1.__defaults__[0]
 ```
 
-结果：![image-20220103152543676](py.assets/image-20220103152543676.png)
+结果：![image-20220103152543676](README.assets/image-20220103152543676.png)
